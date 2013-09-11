@@ -1,0 +1,122 @@
+header,blockquote,dl,h1,h2,h3,h4,h5,h6,code,table,caption,form,p,cite,nav,div,ul,ol{
+	background-color:rgba(255,255,255,.9);
+}
+
+body {
+	margin-left:100px;
+	background-image: url("http://www.entertainment-bureau.com/wp-content/uploads/2013/01/amatrix11.jpg");
+	background-attachment: scroll;
+	background-repeat: repeat;
+}
+
+header {
+	font-family:fantasy;
+	text-align: center;
+	text-decoration:underline;
+}
+
+blockquote {
+    font-size:20px;
+    text-transform:capitalize;
+    
+}
+
+#third {
+	white-space: pre;
+}
+
+
+dl {
+    text-indent:10%;
+    line-height:1.4;
+    float:right;
+
+}
+
+dt {
+	font-weight:bold;
+}
+
+h1 {
+	font-style:oblique;
+	font-size:28px;
+	letter-spacing: 2px;
+	clear:right;
+}
+
+h2,h3,h4,h5,h6 {
+	color:crimson;
+	font-size:18px;
+}
+
+code {
+	vertical-align: 6px;
+}
+
+td {
+	padding:2px;
+	border:3px dotted green;
+}
+
+th {
+	border-width: 5px;
+	border-style:solid;
+	border-color:teal;
+	width: 1px;
+}
+
+
+textarea {
+	width:300px;
+	min-width: 30%;
+	max-width: 150%;
+	height:50px;
+	min-height: 30%;
+	max-height:150%;
+
+}
+
+form {
+	overflow:visible;
+	width:400px;
+}
+
+img {
+	display:block;
+    float:right;
+}
+
+address {
+	position:fixed;
+	left:85%;
+	top:80%;
+	right:15%;
+	bottom:20%;
+	z-index: -10
+}
+
+cite {
+	clear:right;
+}
+
+nav {
+
+}
+
+td:hover{
+	visibility: collapse;
+}
+
+ol {
+	list-style-type:lower-greek;
+	list-style-position: inside;
+}
+
+li {
+	list-style-image:none;
+}
+
+table {
+	border-collapse:separate;
+	border-spacing:50;
+}
